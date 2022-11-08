@@ -321,12 +321,23 @@ th {
 }
 
 @media screen and (max-width: 480px) {
+  body {
+    display: grid;
+  }
   h1 {
     text-align: center;
   }
 
   nav {
     position: static;
+  }
+
+  .menu {
+    text-align: center;
+  }
+
+  .imagen {
+    max-height: 300px;
   }
 
   .caja,
